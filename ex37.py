@@ -1,6 +1,8 @@
 i = 10
 j = 15
 ### HOLY CRAP THERE WERE A LOT OF PROBLEMS IN THE BOOK AND IT WOULDN'T RUN
+
+print("\n")
 if( i == j ):
     print("\t i is equal to j")
 else:
@@ -31,3 +33,4 @@ if( i <= j ):
     print("\t i is less than or equal to j")
 else:
     print("\t i is neither less than nor equal to j")
+print("\n")
