@@ -1,0 +1,5 @@
+Export-ModuleMember -Variable _DefaultFont, _hConsoleScreen -Function Set-ConsoleFont, Get-ConsoleFontInfo
+
+
+%USERPROFILE%\Documents\WindowsPowerShell\Modules\SetConsoleFont\SetConsoleFont.psm1
+# I decided not to import the font/text editor module and just changed the font size via GUI in WindowsPowerShell
