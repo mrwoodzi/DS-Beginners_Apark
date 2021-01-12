@@ -2,7 +2,7 @@
 s = 'Hello World!'
 print("\n\t\tTuples!")
 print("\tTuples exist inside ( , , , )")                          # Tuples
-
+print("\tTuples are immutable.")
 print("\tHello World!")
 
 print("\ts[4] = ", s[4])
@@ -29,5 +29,25 @@ my_string = '''\tHello'''
 print(my_string)
 
 my_string = """\tHello, welcome to
-\tthe world of Python"""
+\tthe world of Python!!!"""
 print(my_string)
+#When I started writing this I go confused and did the totally wrong thing FAIL I was orginally writing about list and got the webpage mixed up
+print("\n\t\tNumbers!")
+print("\tNumbers exist inside ()")
+print("\tNumbers can be any length, you can have floats up to 15 decimals,")
+print("\tand even complex nubmers. ;) ")
+print("\tVariables can even be truncated! Wait??!! What does that mean?")
+b = 123456789
+c = 0.1234567890123456789 # it didn't print numbers that already exsited
+d = 1 + 2j
+print("\t", b)
+print("\t", c)
+print("\t", d)
+print("\tThe second number is truncated, still trying to get a clear \n\tunderstanding of that.")
+print("\tLook CLOSER.")
+print("\tThe original value of the second item is,")
+print("\t0.01234567890123456789.")
+
+print("\n\t\tLists!")
+print("\tThey exist in these [, , , ]")
+print("\tThey are mutable.")
