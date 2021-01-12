@@ -18,7 +18,7 @@ print("\ta = ", a)
 print("\t",type(a))#prints data type of variable "a"
                                                # String
 print("\n\t\tStrings!")
-print("\tStrings are made with ' or \" ")
+print('''\tStrings are made with ' or \" \n\tand contain Unicode characters''')
 my_string = '\tHello'
 print(my_string)
 
