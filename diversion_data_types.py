@@ -1,7 +1,7 @@
 #these examples were from progamiz.com but I added my own personalization
-s = 'Hello World!'
+s = 'Hello World!'###################################### # Tuples
 print("\n\t\tTuples!")
-print("\tTuples exist inside ( , , , )")                          # Tuples
+print("\tTuples exist inside ( , , , )")        
 print("\tThey can be nested.")
 print("\tNested items can be modified.")
 print("\tTuples are immutable.")
@@ -11,24 +11,28 @@ print("\tHello World!")
 print("\ts[4] = ", s[4])
 
 print("\ts[6:11] = ", s[6:11])
-                                                 # Sets
+############################################################### # Sets
 a = {5, 2, 3, 1, 4}
 
 print("\n\t\tSets!")
 print("\tSets exist inside { , , ,}")
+print("\tSets are un ordered.")
 print("\ta = ", a)
 
 print("\t",type(a))#prints data type of variable "a"
-                                               # String
+#####################################################  # String
 print("\n\t\tStrings!")
 print('''\tStrings are made with ' or \" \n\tand contain Unicode characters''')
 print("\tYou can concatenate a string with a function.")
 print("\tMake it look something like below.")
-function = """\t(f"....curly brackets } will bracket the function....)"""
+function = """\t(f"....curly brackets } will bracket the function....")"""
 print(f"{function}")
-print("The line above is a function.")
+print("\tThe line above is a function.")
 my_string = '\tHello'
 print(my_string)
+print(my_string[0:5])
+print("\tHell, you can even slice a string!")
+print(f"{my_string[0:5]}, you can concatenate and slice at the same time!")
 
 my_string = "\tHello"
 print(my_string)
