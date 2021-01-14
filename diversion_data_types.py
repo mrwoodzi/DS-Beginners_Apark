@@ -2,7 +2,10 @@
 s = 'Hello World!'
 print("\n\t\tTuples!")
 print("\tTuples exist inside ( , , , )")                          # Tuples
+print("\tThey can be nested.")
+print("\tNested items can be modified.")
 print("\tTuples are immutable.")
+print("\tThey are generally used when the types of data are different, heterogeneous.")
 print("\tHello World!")
 
 print("\ts[4] = ", s[4])
@@ -19,6 +22,11 @@ print("\t",type(a))#prints data type of variable "a"
                                                # String
 print("\n\t\tStrings!")
 print('''\tStrings are made with ' or \" \n\tand contain Unicode characters''')
+print("\tYou can concatenate a string with a function.")
+print("\tMake it look something like below.")
+function = """\t(f"....curly brackets } will bracket the function....)"""
+print(f"{function}")
+print("The line above is a function.")
 my_string = '\tHello'
 print(my_string)
 
@@ -28,7 +36,7 @@ print(my_string)
 my_string = '''\tHello'''
 print(my_string)
 
-my_string = """\tHello, welcome to
+my_string = """\tHello! Welcome to
 \tthe world of Python!!!"""
 print(my_string)
 #When I started writing this I go confused and did the totally wrong thing FAIL I was orginally writing about list and got the webpage mixed up
