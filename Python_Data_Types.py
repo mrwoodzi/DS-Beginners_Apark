@@ -1,10 +1,12 @@
 #these examples were from progamiz.com but I added my own personalization
+nest = []
 s = 'Hello World!'###################################### # Tuples
 print("\n\t\tTuples!")
-print("\tTuples exist inside ( , , , )")        
-print("\tThey can be nested.")
-print("\tNested items can be modified.")
 print("\tTuples are immutable.")
+print("\tTuples exist inside  parenthesis ( , , , )")        
+print(f"\tThey can be nested with {nest}.")
+print("\tNested items can be modified.")
+
 print("\tThey are generally used when the types of data are different, heterogeneous.")
 print("\tHello World!")
 
@@ -21,11 +23,12 @@ print("\ta = ", a) # this put the data set in numerical order
 # I tried it a different way and it still put them in numerical order
 print("\t",type(a))#prints data type of variable "a"
 #####################################################  # String
+curly_brackets = {}
 print("\n\t\tStrings!")
 print('''\tStrings are made with ' or \" \n\tand contain Unicode characters''')
 print("\tYou can concatenate a string with a function.")
 print("\tMake it look something like below.")
-function = """\t(f"....curly brackets } will bracket the function....")"""
+function = f"""\t(f"....curly brackets {curly_brackets} will bracket the variable....")"""
 print(f"{function}")
 print("\tThe line above is a function.")
 my_string = '\tHello'
@@ -67,3 +70,20 @@ print("\t0.01234567890123456789.")
 print("\n\t\tLists!")
 print("\tThey exist in these [, , , ]")
 print("\tThey are mutable.")
+
+
+print("\n\t\tTHE ABOVE DATA TYPES USE INDEXING TO ACCESS VALUES.")
+
+
+############################################ #Dictionary
+
+print("\n\t\t Dictionarys!")
+print("\tDICTIONARYS USE KEYS TO ACCESS VALUES.")
+print("\tDictionarys are an unordered pair.")
+print("\tDictionaries are optimized to retrieve values when the key is known.")
+print('''\tkey/value''')
+print(f"\tTo create a dictionary use curly brackets {curly_brackets}.")
+print("\tValues can be of any data type and can repeat.")
+print("\tKeys must be of an immutable type (string, number or tuple with immutable elements) and must be unique.")
+print("\tThere is a built in dict() function which lets you create a dictionary.")
+print("\tAfter reading up on dictionaries they may require their own .py file.")
