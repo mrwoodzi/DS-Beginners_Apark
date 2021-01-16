@@ -16,9 +16,9 @@ a = {5, 2, 3, 1, 4}
 
 print("\n\t\tSets!")
 print("\tSets exist inside { , , ,}")
-print("\tSets are un ordered.")
-print("\ta = ", a)
-
+print("\tSets are unordered.")
+print("\ta = ", a) # this put the data set in numerical order
+# I tried it a different way and it still put them in numerical order
 print("\t",type(a))#prints data type of variable "a"
 #####################################################  # String
 print("\n\t\tStrings!")
@@ -43,7 +43,12 @@ print(my_string)
 my_string = """\tHello! Welcome to
 \tthe world of Python!!!"""
 print(my_string)
-#When I started writing this I go confused and did the totally wrong thing FAIL I was orginally writing about list and got the webpage mixed up
+
+########################################## # Numbers
+
+#When I started writing this I go confused and did the totally wrong thing 
+# FAIL I was orginally writing about list and got the webpage mixed up
+
 print("\n\t\tNumbers!")
 print("\tNumbers exist inside ()")
 print("\tNumbers can be any length, you can have floats up to 15 decimals,")
@@ -52,14 +57,13 @@ print("\tVariables can even be truncated! Wait??!! What does that mean?")
 b = 123456789
 c = 0.1234567890123456789 # it didn't print numbers that already exsited
 d = 1 + 2j
-print("\t", b)
-print("\t", c)
-print("\t", d)
+print("\t", b, "This is an integer.")
+print("\t", c, "This is a float.")
+print("\t", d, "This is a complex number.")
 print("\tThe second number is truncated, still trying to get a clear \n\tunderstanding of that.")
 print("\tLook CLOSER.")
 print("\tThe original value of the second item is,")
 print("\t0.01234567890123456789.")
-
 print("\n\t\tLists!")
 print("\tThey exist in these [, , , ]")
 print("\tThey are mutable.")
