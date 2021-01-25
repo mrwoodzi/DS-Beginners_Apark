@@ -36,6 +36,7 @@ print(my_string)
 print(my_string[0:5])
 print("\tHell, you can even slice a string!")
 print(f"{my_string[0:5]}, you can concatenate and slice at the same time!")
+print("""\tThis is what it looks like print(f"{my_string[0:5]}, you can concatenate and slice at the same time!")""")
 
 my_string = "\tHello"
 print(my_string)
