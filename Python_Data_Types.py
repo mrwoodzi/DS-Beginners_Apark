@@ -68,9 +68,14 @@ print("\tThe second number is truncated, still trying to get a clear \n\tunderst
 print("\tLook CLOSER.")
 print("\tThe original value of the second item is,")
 print("\t0.01234567890123456789.")
+
+
+
 print("\n\t\tLists!")
 print("\tThey exist in these [, , , ]")
 print("\tThey are mutable.")
+print("\tYou can pull items from lists in or out of order by calling {thing[]}.")
+print("\tPy reads the list the same way as a list.")
 
 
 print("\n\t\tTHE ABOVE DATA TYPES USE INDEXING TO ACCESS VALUES.")
